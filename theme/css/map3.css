@@ -1,0 +1,516 @@
+.container2 .btnBabad {
+  position: absolute;
+  top: 218px;
+  left: 320px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  padding: 2px 6px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.container2 .btnBabad:hover {
+  background-color: black;
+}
+
+.container2 .btnBambe {
+  position: absolute;
+  top: 330px;
+  left: 510px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  padding: 2px 6px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.container2 .btnBambe:hover {
+  background-color: black;
+}
+
+.container2 .btnBrondong {
+  position: absolute;
+  top: 95px;
+  left: 325px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  padding: 2px 6px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.container2 .btnBrondong:hover {
+  background-color: black;
+}
+
+.container2 .btnBalongpanggang {
+  position: absolute;
+  top: 300px;
+  left: 415px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  padding: 2px 6px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.container2 .btnBalongpanggang:hover {
+  background-color: black;
+}
+
+.container2 .btnBawean {
+  position: absolute;
+  top: 95px;
+  left: 365px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  padding: 2px 6px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.container2 .btnBawean:hover {
+  background-color: black;
+}
+
+.container2 .btnBanyuurip {
+  position: absolute;
+  top: 80px;
+  left: 400px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  padding: 2px 6px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.container2 .btnBanyuurip:hover {
+  background-color: black;
+}
+
+.container2 .btnCerme {
+  position: absolute;
+  top: 280px;
+  left: 470px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  padding: 2px 6px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.container2 .btnCerme:hover {
+  background-color: black;
+}
+
+.container2 .btnDudukSampeyan {
+  position: absolute;
+  top: 230px;
+  left: 445px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  padding: 2px 6px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.container2 .btnDudukSampeyan:hover {
+  background-color: black;
+
+}
+
+.container2 .btnGresik {
+  position: absolute;
+  top: 240px;
+  left: 515px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  padding: 2px 6px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.container2 .btnGresik:hover {
+  background-color: black;
+
+}
+
+.container2 .btnKedamean {
+  position: absolute;
+  top: 315px;
+  left: 460px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  padding: 2px 6px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.container2 .btnKedamean:hover {
+  background-color: black;
+}
+
+.container2 .btnKenjeran{
+  position: absolute;
+  top: 310px;
+  left: 600px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  padding: 2px 6px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.container2 .btnKenjeran:hover {
+  background-color: black;
+}
+
+.container2 .btnKalianak {
+  position: absolute;
+  top: 285px;
+  left: 530px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  padding: 2px 6px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.container2 .btnKalianak:hover {
+  background-color: black;
+}
+
+.container2 .btnKandangan {
+  position: absolute;
+  top: 305px;
+  left: 495px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  padding: 2px 6px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.container2 .btnKandangan:hover {
+  background-color: black;
+}
+
+.container2 .btnKapasan {
+  position: absolute;
+  top: 300px;
+  left: 560px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  padding: 2px 6px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.container2 .btnKapasan:hover {
+  background-color: black;
+}
+
+.container2 .btnKarangpilang {
+  position: absolute;
+  top: 370px;
+  left: 470px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  padding: 2px 6px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.container2 .btnKarangpilang:hover {
+  background-color: black;
+}
+
+.container2 .btnKebalen {
+  position: absolute;
+  top: 280px;
+  left: 560px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  padding: 2px 6px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.container2 .btnKebalen:hover {
+  background-color: black;
+}
+
+.container2 .btnLakarsantri {
+  position: absolute;
+  top: 340px;
+  left: 440px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  padding: 2px 6px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.container2 .btnLakarsantri:hover {
+  background-color: black;
+}
+
+
+.container2 .btnLamongan {
+  position: absolute;
+  top: 218px;
+  left: 390px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  padding: 2px 6px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.container2 .btnLamongan:hover {
+  background-color: black;
+}
+
+.container2 .btnGresik2 {
+  position: absolute;
+  top: 215px;
+  left: 480px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  padding: 2px 6px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.container2 .btnGresik2:hover {
+  background-color: black;
+
+}
+
+.container2 .btnSukodadi {
+  position: absolute;
+  top: 200px;
+  left: 355px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  padding: 2px 6px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.container2 .btnSukodadi:hover {
+  background-color: black;
+}
+
+.container2 .btnSedayu {
+  position: absolute;
+  top: 160px;
+  left: 470px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  padding: 2px 6px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.container2 .btnSedayu:hover {
+  background-color: black;
+}
+
+.container2 .btnTandes {
+  position: absolute;
+  top: 320px;
+  left: 550px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  padding: 2px 6px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.container2 .btnTandes:hover {
+  background-color: black;
+}
+
+.container2 .btnMergoyoso {
+  position: absolute;
+  top: 305px;
+  left: 528px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  padding: 2px 6px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.container2 .btnMergoyoso:hover {
+  background-color: black;
+}
+
+.container2 .btnNonSto {
+  position: absolute;
+  top: 35px;
+  left: 630px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  padding: 2px 6px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.container2 .btnNonSto:hover {
+  background-color: black;
+}
+
+.container2 { 
+  width: 900px; 
+  position: relative; 
+}
+
+.container2 img { 
+  margin-top: 15px;
+}
