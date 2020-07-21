@@ -24,6 +24,11 @@ class Sto extends CI_Controller{
 		}
 	}
 
+    function view_sto(){
+        $x['data']=$this->m_sto->get_all_sto();
+        $this->load->view('admin/v_sto3',$x);
+    }
+
 	function simpan_denah(){
 		$config['upload_path'] = './assets/denah/'; //path folder
 		$config['allowed_types'] = 'pdf'; //type yang dapat diakses bisa anda sesuaikan
@@ -111,4 +116,56 @@ class Sto extends CI_Controller{
 		redirect('admin/sto');
 	}
 	
+	public function upload()
+    {
+        // Load plugin PHPExcel nya
+        include APPPATH.'third_party/PHPExcel/PHPExcel.php';
+
+        $config['upload_path'] ='./excel/';
+        $config['allowed_types'] = 'xlsx|xls|csv';
+        $config['max_size'] = '10000';
+        $config['encrypt_name'] = true;
+        $this->upload->initialize($config);
+        $this->load->library('upload', $config);
+
+        if (!$this->upload->do_upload()) {
+
+            //upload gagal
+            $this->session->set_flashdata('notif', '<div class="alert alert-danger"><b>PROSES IMPORT GAGAL!</b> '.$this->upload->display_errors().'</div>');
+            //redirect halaman
+            redirect('admin/sto/view_sto');
+
+        } else {
+
+            $data_upload = $this->upload->data();
+
+            $excelreader     = new PHPExcel_Reader_Excel2007();
+            $loadexcel         = $excelreader->load('excel/'.$data_upload['file_name']); // Load file yang telah diupload ke folder excel
+            $sheet             = $loadexcel->getActiveSheet()->toArray(null, true, true ,true);
+
+            $data = array();
+
+            $numrow = 1;
+            foreach($sheet as $row){
+                            if($numrow > 1){
+                                array_push($data, array(
+                                    'idsto' => $row['A'],
+                                    'idwitel'      => $row['B'],
+                                    'nama_sto'      => $row['C'],
+                                    'kode_sto'      => $row['D']
+                                ));
+                    }
+                $numrow++;
+            }
+            $this->db->insert_batch('tbl_sto', $data);
+            //delete file from server
+            //unlink(realpath('excel/'.$data_upload['file_name']));
+
+            //upload success
+            $this->session->set_flashdata('notif', '<div class="alert alert-success"><b>PROSES IMPORT BERHASIL!</b> Data berhasil diimport!</div>');
+            //redirect halaman
+            redirect('admin/sto/view_sto');
+
+        }
+    }
 }

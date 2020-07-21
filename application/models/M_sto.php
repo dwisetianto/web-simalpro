@@ -32,4 +32,9 @@ class M_sto extends CI_Model{
 		return $hsl;
 	}
 
+	function get_all_sto(){
+		$hsl=$this->db->query("SELECT * FROM tbl_sto");
+		return $hsl;
+	}
+
 }
